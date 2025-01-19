@@ -22,7 +22,6 @@ const ShowMultipliedCount = ( {count1, count2,incrementCount1} ) =>{
     <>
       <p>Multiplied Count1 : {multipliedCount1} </p>
       <p>Multiplied Count2 : {multipliedCount2} </p>
-      <button onClick={()=>incrementCount1}>{`Count 1 : ${count1}`}</button>
     </>
     
   )
